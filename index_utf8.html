@@ -1,0 +1,241 @@
+﻿<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/assets/styles-DqtpYFXw.css" data-precedence="default"/><title>Cabeça de Porco Smokehouse — Hambúrgueres, Defumados &amp; Cervejas</title><meta name="author" content="Lovable"/><meta name="twitter:card" content="summary"/><meta name="twitter:site" content="@Lovable"/><meta name="description" content="Hambúrgueres artesanais, carnes defumadas lentamente e cervejas selecionadas em Campo Grande, Rio de Janeiro. Cardápio digital, reservas e delivery."/><meta property="og:title" content="Cabeça de Porco Smokehouse"/><meta property="og:description" content="Smokehouse premium no Rio. Defumados, drinks e música ao vivo."/><meta property="og:type" content="restaurant"/><link rel="modulepreload" href="/assets/index-De_GJWYX.js"/><link rel="modulepreload" href="/assets/index-Bw7j0fOY.js"/>
+<style>
+	@font-face {
+		font-family: 'CameraPlainVariable';
+		src: url('https://cdn.gpteng.co/mcp-widgets/v1/fonts/CameraPlainVariable.woff2') format('woff2');
+		font-weight: 100 900;
+		font-style: normal;
+		font-display: swap;
+	}
+
+	#lovable-badge {
+		--badge-bg: #1b1b1b;
+		--badge-text: #c5c1b9;
+		--badge-text-hover: #dcdad5;
+		--badge-radius: 6px;
+		--badge-padding: 8px;
+		--badge-gap: 6px;
+		--badge-shadow: 
+			0 0 0 1px rgba(0, 0, 0, 0.88),
+			0 1px 0 0 rgba(0, 0, 0, 0.04),
+			0 2px 2px -1px rgba(0, 0, 0, 0.08),
+			0 4px 4px -2px rgba(0, 0, 0, 0.08),
+			0 8px 8px -4px rgba(0, 0, 0, 0.08),
+			0 16px 16px -8px rgba(0, 0, 0, 0.08);
+		--badge-transition-duration: 0.2s;
+		--badge-transition-easing: cubic-bezier(0.16, 1, 0.32, 1);
+		--focus-color: #575ECF;
+		--focus-offset: 2px;
+		--focus-width: 2px;
+		
+		position: fixed;
+		bottom: 12px;
+		right: 12px;
+		height: 24px;
+		display: flex;
+		align-items: center;
+		z-index: 1000000;
+		background-color: var(--badge-bg);
+		color: var(--badge-text);
+		border-radius: var(--badge-radius);
+		box-shadow: var(--badge-shadow);
+		font-size: 12px;
+		font-family: CameraPlainVariable, "CameraPlainVariable Fallback", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+		font-weight: 400 !important;
+		text-transform: none !important;
+		font-feature-settings: normal !important;
+		transform: translateZ(0);
+		will-change: transform, opacity;
+	}
+
+	#lovable-badge-cta {
+		display: flex;
+		align-items: center;
+		gap: var(--badge-gap);
+		padding: 0 var(--badge-padding);
+		height: 100%;
+		color: inherit;
+		text-decoration: none;
+		white-space: nowrap;
+		border-radius: var(--badge-radius) 0 0 var(--badge-radius);
+		transition: 
+			background-color var(--badge-transition-duration) ease,
+			color var(--badge-transition-duration) ease,
+			transform 0.1s ease;
+	}
+
+	#lovable-badge-cta:hover {
+		background: rgba(255, 255, 255, 0.04);
+		color: var(--badge-text-hover);
+	}
+
+	#lovable-badge-cta:active {
+		transform: scale(0.98);
+	}
+
+	#lovable-badge-cta:focus {
+		outline: none;
+	}
+
+	#lovable-badge-cta:focus-visible {
+		outline: var(--focus-width) solid var(--focus-color);
+		outline-offset: var(--focus-offset);
+		z-index: 1;
+	}
+
+	#lovable-badge-text {
+		line-height: 1;
+	}
+
+	#lovable-badge-divider {
+		width: 1px;
+		height: 24px;
+		background-color: rgba(255, 255, 255, 0.04);
+		flex-shrink: 0;
+	}
+
+	#lovable-badge-close {
+		width: 24px;
+		height: 24px;
+		min-width: 24px;
+		min-height: 24px;
+		cursor: pointer;
+		background: none;
+		border: none;
+		padding: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 0 var(--badge-radius) var(--badge-radius) 0;
+		flex-shrink: 0;
+		transition: 
+			background-color var(--badge-transition-duration) ease,
+			transform 0.1s ease;
+	}
+
+	#lovable-badge-close:hover {
+		background: rgba(255, 255, 255, 0.04);
+	}
+
+	#lovable-badge-close:active {
+		transform: scale(0.92);
+	}
+
+	#lovable-badge-close:focus {
+		outline: none;
+	}
+
+	#lovable-badge-close:focus-visible {
+		outline: var(--focus-width) solid var(--focus-color);
+		outline-offset: calc(var(--focus-offset) * -1);
+		z-index: 1;
+	}
+
+	#lovable-badge-close svg path {
+		fill: var(--badge-text);
+		transition: fill var(--badge-transition-duration) ease;
+	}
+
+	#lovable-badge-close:hover svg path {
+		fill: var(--badge-text-hover);
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		#lovable-badge-cta,
+		#lovable-badge-close,
+		#lovable-badge-close svg path {
+			transition: none;
+		}
+		
+		#lovable-badge-cta:active,
+		#lovable-badge-close:active {
+			transform: none;
+		}
+	}
+
+	@media (prefers-contrast: high) {
+		#lovable-badge {
+			--badge-bg: #000;
+			--badge-text: #fff;
+			--badge-text-hover: #fff;
+			border: 2px solid currentColor;
+		}
+		
+		#lovable-badge-cta:focus-visible,
+		#lovable-badge-close:focus-visible {
+			outline-width: 3px;
+		}
+	}
+</style>
+<meta name="twitter:title" content="Cabeça de Porco Smokehouse"><meta name="twitter:description" content="Smokehouse premium no Rio. Defumados, drinks e música ao vivo."><meta property="og:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e915ea5a-566e-45ed-a606-2f67e362d63e/id-preview-e4283495--3ad22999-3e01-4088-9ae8-b548569548b2.lovable.app-1778879467017.png"><meta name="twitter:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e915ea5a-566e-45ed-a606-2f67e362d63e/id-preview-e4283495--3ad22999-3e01-4088-9ae8-b548569548b2.lovable.app-1778879467017.png"></head><body><!--$--><header class="nav "><a href="#home" class="brand"><div class="brand-mark">CP</div><div class="brand-text">CABEÇA DE <span>PORCO</span></div></a><nav class="nav-links "><a href="#home">Home</a><a href="#cardapio">Cardápio</a><a href="#diferenciais">Diferenciais</a><a href="#sobre">Sobre</a><a href="#localizacao">Localização</a><a href="#contato">Contato</a></nav><div style="display:flex;gap:10px;align-items:center"><a href="#cardapio" class="nav-cta">Reservar</a><button class="cart-btn" aria-label="Abrir pedido">🛒</button><button class="burger " aria-label="Menu"><span></span><span></span><span></span></button></div></header><section id="home" class="hero"><div class="hero-bg" style="background-image:url(/assets/hero-burger-DHt2DsiM.jpg)"></div><div class="hero-content"><div class="hero-eyebrow"><span class="dot"></span>SMOKEHOUSE · CAMPO GRANDE — RJ</div><h1>Cabeça de <span class="accent">Porco</span></h1><div class="hero-tag">SMOKEHOUSE &amp; BAR</div><p class="hero-sub">Hambúrgueres artesanais, carnes defumadas lentamente em pitsmoker e uma seleção honesta de cervejas e drinks autorais.</p><div class="hero-cta"><a href="#cardapio" class="btn btn-primary">Ver Cardápio →</a><a href="#contato" class="btn btn-ghost">Fazer Reserva</a></div></div><div class="hero-scroll"><span>SCROLL</span><span class="line"></span></div></section><section id="diferenciais" class="features"><div class="section-head reveal"><div class="eyebrow">POR QUE VIR</div><h2>Mais que um bar.<br/>Uma experiência.</h2><p>Tudo o que faz da Cabeça de Porco o ponto de encontro favorito da região.</p></div><div class="feature-grid"><div class="feature-card reveal" style="transition-delay:0ms"><div class="feature-icon">♿</div><h3>Acessibilidade</h3><ul><li>Entrada para cadeirantes</li></ul></div><div class="feature-card reveal" style="transition-delay:60ms"><div class="feature-icon">🍽</div><h3>Serviço</h3><ul><li>Mesas externas</li><li>Refeição no local</li><li>Para viagem</li><li>Entrega</li><li>Entrega sem contato</li></ul></div><div class="feature-card reveal" style="transition-delay:120ms"><div class="feature-icon">🎸</div><h3>Destaques</h3><ul><li>Música ao vivo</li><li>Shows ao vivo</li><li>Transmissão de esportes</li><li>Ótima seleção de cervejas</li><li>Ótimos coquetéis</li></ul></div><div class="feature-card reveal" style="transition-delay:180ms"><div class="feature-icon">✦</div><h3>Ambiente</h3><ul><li>Casual e moderno</li><li>Ideal para grupos</li><li>Tranquilo</li></ul></div><div class="feature-card reveal" style="transition-delay:240ms"><div class="feature-icon">📅</div><h3>Planejamento</h3><ul><li>Aceita reservas</li></ul></div><div class="feature-card reveal" style="transition-delay:300ms"><div class="feature-icon">💳</div><h3>Pagamentos</h3><ul><li>Crédito</li><li>Débito</li><li>NFC / aproximação</li></ul></div><div class="feature-card reveal" style="transition-delay:360ms"><div class="feature-icon">👨‍👩‍👧</div><h3>Família</h3><ul><li>Bom para crianças</li></ul></div><div class="feature-card reveal" style="transition-delay:420ms"><div class="feature-icon">🅿️</div><h3>Estacionamento</h3><ul><li>Muitas vagas disponíveis</li><li>Estacionamento gratuito</li><li>Vagas na rua</li></ul></div></div></section><section id="cardapio"><div class="section-head reveal"><div class="eyebrow">CARDÁPIO DIGITAL</div><h2>Da brasa, do smoker,<br/>direto para a mesa.</h2><p>Navegue pelas categorias, busque seu favorito e monte seu pedido.</p></div><div class="menu-wrap"><div class="menu-tools reveal"><div class="search-box"><input type="text" placeholder="Buscar prato, ingrediente..." value=""/></div></div><div class="tabs reveal"><button class="tab active">Entradas</button><button class="tab ">Hambúrgueres</button><button class="tab ">Pitsmoker</button><button class="tab ">Grelhados</button><button class="tab ">Bebidas</button><button class="tab ">Alcoólicas</button><button class="tab ">Especiais</button><button class="tab ">Almoço de Domingo</button></div><div class="menu-grid "><article class="menu-item"><div class="menu-item-head"><h4>Peppa Pig</h4><span class="menu-dots"></span><span class="menu-price">R$ 35,90</span></div><p>Carne suína desfiada, cebola caramelizada e crocante de bacon.</p><div class="menu-foot"><span class="badge badge-popular">★ Mais pedido</span><button class="add-btn">+ Adicionar</button></div></article><article class="menu-item"><div class="menu-item-head"><h4>Croquete</h4><span class="menu-dots"></span><span class="menu-price">R$ 32,90</span></div><p>Croquetes artesanais dourados, recheio cremoso da casa.</p><div class="menu-foot"><span></span><button class="add-btn">+ Adicionar</button></div></article><article class="menu-item"><div class="menu-item-head"><h4>João Frango</h4><span class="menu-dots"></span><span class="menu-price">R$ 35,90</span></div><p>Iscas de frango temperadas, finalizadas no smoker.</p><div class="menu-foot"><span></span><button class="add-btn">+ Adicionar</button></div></article><article class="menu-item"><div class="menu-item-head"><h4>Linguicinha</h4><span class="menu-dots"></span><span class="menu-price">R$ 34,90</span></div><p>Linguiça artesanal grelhada, mostarda dijon e pão rústico.</p><div class="menu-foot"><span></span><button class="add-btn">+ Adicionar</button></div></article><article class="menu-item"><div class="menu-item-head"><h4>Escondidinho</h4><span class="menu-dots"></span><span class="menu-price">R$ 27,90</span></div><p>Purê cremoso gratinado com carne defumada desfiada.</p><div class="menu-foot"><span></span><button class="add-btn">+ Adicionar</button></div></article><article class="menu-item"><div class="menu-item-head"><h4>Torre SMO</h4><span class="menu-dots"></span><span class="menu-price">R$ 34,90</span></div><p>Torre crocante com camadas de queijo, pulled pork e molho da casa.</p><div class="menu-foot"><span></span><button class="add-btn">+ Adicionar</button></div></article><article class="menu-item"><div class="menu-item-head"><h4>Torresmo</h4><span class="menu-dots"></span><span class="menu-price">R$ 17,90</span></div><p>Torresmo pururuca ultra crocante e levemente apimentado.</p><div class="menu-foot"><span></span><button class="add-btn">+ Adicionar</button></div></article><article class="menu-item"><div class="menu-item-head"><h4>Porção de Pastel</h4><span class="menu-dots"></span><span class="menu-price">R$ 38,90</span></div><p>Pastéis crocantes recheados com carne defumada da casa.</p><div class="menu-foot"><span></span><button class="add-btn">+ Adicionar</button></div></article><article class="menu-item"><div class="menu-item-head"><h4>Porção de Batata</h4><span class="menu-dots"></span><span class="menu-price">R$ 25,90</span></div><p>Batatas rústicas douradas, sal grosso e ervas.</p><div class="menu-foot"><span></span><button class="add-btn">+ Adicionar</button></div></article><article class="menu-item"><div class="menu-item-head"><h4>Batata com Cheddar</h4><span class="menu-dots"></span><span class="menu-price">R$ 29,90</span></div><p>Batata coberta com cheddar cremoso derretido.</p><div class="menu-foot"><span></span><button class="add-btn">+ Adicionar</button></div></article><article class="menu-item"><div class="menu-item-head"><h4>Batata com Cheddar e Pulled Pork</h4><span class="menu-dots"></span><span class="menu-price">R$ 32,90</span></div><p>Batata, cheddar e suíno desfiado defumado lentamente.</p><div class="menu-foot"><span class="badge badge-popular">★ Mais pedido</span><button class="add-btn">+ Adicionar</button></div></article><article class="menu-item"><div class="menu-item-head"><h4>Batata com Sour Cream e Pastrami</h4><span class="menu-dots"></span><span class="menu-price">R$ 36,90</span></div><p>Batata cremosa com sour cream e pastrami fatiado fino.</p><div class="menu-foot"><span></span><button class="add-btn">+ Adicionar</button></div></article></div></div></section><section id="sobre" class="about"><div class="about-grid"><div class="about-copy reveal"><div class="eyebrow">NOSSA HISTÓRIA</div><h2>Fogo lento.<br/>Sabor sério.</h2><p>A Cabeça de Porco nasceu da paixão por carnes defumadas no estilo das smokehouses americanas. Aqui, costelas e brisket passam horas no pitsmoker, ganhando aquela crosta perfeita e a fumaça que assina cada prato.</p><p>No salão, a vibe é descontraída: tijolos aparentes, luz baixa, vinis girando e uma curadoria honesta de cervejas e drinks autorais. Nos finais de semana, música ao vivo. Todo dia, a mesma obsessão pelo ponto certo.</p><div class="about-stats"><div class="stat"><div class="num">12h</div><div class="lbl">Defumação lenta</div></div><div class="stat"><div class="num">24/7</div><div class="lbl">Aberto sempre</div></div><div class="stat"><div class="num">+50</div><div class="lbl">Rótulos de cerveja</div></div></div></div><div class="about-imgs reveal"><div><img src="/assets/about-1-BpS8twmq.jpg" alt="Costela defumada" loading="lazy" width="1024" height="1024"/></div><div><img src="/assets/about-2-88Pq4h93.jpg" alt="Salão do bar" loading="lazy" width="1024" height="1024"/></div><div><img src="/assets/about-3-C854ddj3.jpg" alt="Música ao vivo" loading="lazy" width="1024" height="1024"/></div></div></div></section><section class="reviews"><div class="section-head reveal"><div class="eyebrow">DEPOIMENTOS</div><h2>Quem vem, volta.</h2></div><div class="reviews-track-wrap reveal"><div class="reviews-track" style="transform:translateX(-0%)"><div class="review-card"><div class="review-inner"><div class="stars">★★★★★</div><p class="review-text">&quot;<!-- -->A costela bovina defumada é simplesmente fora de série. Ambiente impecável, atendimento atencioso e drinks autorais matadores.<!-- -->&quot;</p><div class="review-author">— <!-- -->Rafael M.</div></div></div><div class="review-card"><div class="review-inner"><div class="stars">★★★★★</div><p class="review-text">&quot;<!-- -->Vim pelo Pastrami Mustard e fiquei pelo Pinkmoon. O lugar tem aquela vibe de smokehouse americana de verdade. Voltarei sempre.<!-- -->&quot;</p><div class="review-author">— <!-- -->Camila S.</div></div></div><div class="review-card"><div class="review-inner"><div class="stars">★★★★★</div><p class="review-text">&quot;<!-- -->Hambúrguer Slash no ponto perfeito, batata com pulled pork insana. Música ao vivo no fim de semana fechou a noite.<!-- -->&quot;</p><div class="review-author">— <!-- -->Diego A.</div></div></div><div class="review-card"><div class="review-inner"><div class="stars">★★★★★</div><p class="review-text">&quot;<!-- -->O almoço de domingo é uma experiência. Prime Rib defumado derrete na boca. Recomendo para grupos.<!-- -->&quot;</p><div class="review-author">— <!-- -->Patrícia L.</div></div></div></div><div class="review-dots"><button class="active" aria-label="Depoimento 1"></button><button class="" aria-label="Depoimento 2"></button><button class="" aria-label="Depoimento 3"></button><button class="" aria-label="Depoimento 4"></button></div></div></section><section id="localizacao"><div class="section-head reveal"><div class="eyebrow">VENHA NOS VISITAR</div><h2>Onde a fumaça<br/>está sempre subindo.</h2></div><div class="loc-grid"><div class="loc-info reveal"><h3>Cabeça de Porco Smokehouse</h3><div class="loc-row"><div class="ic">📍</div><div><div class="lbl">Endereço</div><div class="val">Estr. do Mendanha, 3345<br/>Campo Grande, Rio de Janeiro — RJ<br/>CEP 23092-001</div></div></div><div class="loc-row"><div class="ic">📞</div><div><div class="lbl">Telefone</div><div class="val">(21) 2412-9370</div></div></div><div class="loc-row"><div class="ic">⏱</div><div><div class="lbl">Horário</div><div class="val">Aberto 24 horas · Todos os dias</div></div></div><div class="loc-actions" id="contato"><a class="btn btn-primary" href="https://wa.me/552124129370" target="_blank" rel="noopener noreferrer">WhatsApp</a><a class="btn btn-ghost" href="https://maps.google.com/?q=Estrada+do+Mendanha+3345+Campo+Grande+RJ" target="_blank" rel="noopener noreferrer">Google Maps</a><a class="btn btn-ghost" href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></div></div><div class="map-frame reveal"><iframe title="Mapa Cabeça de Porco" src="https://www.google.com/maps?q=Estrada+do+Mendanha+3345+Campo+Grande+RJ&amp;output=embed" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe></div></div></section><footer class="footer"><div class="footer-grid"><div><div class="brand" style="margin-bottom:16px"><div class="brand-mark">CP</div><div class="brand-text">CABEÇA DE <span>PORCO</span></div></div><p>Smokehouse e bar premium. Carnes defumadas, hambúrgueres artesanais e drinks autorais no coração de Campo Grande.</p><div class="socials"><a href="https://instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram">◎</a><a href="https://facebook.com" target="_blank" rel="noreferrer" aria-label="Facebook">f</a><a href="https://wa.me/552124129370" target="_blank" rel="noreferrer" aria-label="WhatsApp">✆</a></div></div><div><h5>Navegar</h5><ul><li><a href="#home">Home</a></li><li><a href="#cardapio">Cardápio</a></li><li><a href="#diferenciais">Diferenciais</a></li><li><a href="#sobre">Sobre</a></li></ul></div><div><h5>Cardápio</h5><ul><li><a href="#cardapio">Hambúrgueres</a></li><li><a href="#cardapio">Pitsmoker</a></li><li><a href="#cardapio">Drinks &amp; Cervejas</a></li><li><a href="#cardapio">Almoço de Domingo</a></li></ul></div><div><h5>Contato</h5><ul><li>Estr. do Mendanha, 3345</li><li>Campo Grande — RJ</li><li>(21) 2412-9370</li><li>Aberto 24h</li></ul></div></div><div class="copyright">© <!-- -->2026<!-- --> CABEÇA DE PORCO SMOKEHOUSE — Todos os direitos reservados.</div></footer><div class="cart-overlay "></div><aside class="cart-drawer " aria-hidden="true"><div class="cart-head"><h3>SEU PEDIDO</h3><button class="cart-close" aria-label="Fechar">✕</button></div><div class="cart-body"><div class="cart-empty">Seu pedido está vazio.<br/>Adicione itens do cardápio.</div></div><div class="cart-foot"><div class="cart-total"><span>Total (<!-- -->0<!-- --> <!-- -->itens<!-- -->)</span><span>R$ 0,00</span></div><a class="btn btn-primary" href="https://wa.me/552124129370" target="_blank" rel="noopener noreferrer" aria-disabled="true" style="opacity:0.5;pointer-events:none">Finalizar no WhatsApp →</a></div></aside><div class="toast "><span class="ok">✓</span></div><a class="fab" href="https://wa.me/552124129370" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">✆</a><!--/$--><script class="$tsr" id="$tsr-stream-barrier">(self.$R=self.$R||{})["tsr"]=[];self.$_TSR={h(){this.hydrated=!0,this.c()},e(){this.streamEnded=!0,this.c()},c(){this.hydrated&&this.streamEnded&&(delete self.$_TSR,delete self.$R.tsr)},p(e){this.initialized?e():this.buffer.push(e)},buffer:[]};$_TSR.router=($R=>$R[0]={manifest:$R[1]={routes:$R[2]={__root__:$R[3]={preloads:$R[4]=["/assets/index-De_GJWYX.js"],assets:$R[5]=[$R[6]={tag:"script",attrs:$R[7]={type:"module",async:!0},children:"import(\"/assets/index-De_GJWYX.js\")"}]},"/":$R[8]={preloads:$R[9]=["/assets/index-Bw7j0fOY.js"]}}},matches:$R[10]=[$R[11]={i:"__root__ ",u:1778881646122,s:"success",ssr:!0},$R[12]={i:"  ",u:1778881646122,s:"success",ssr:!0}],lastMatchId:"  "})($R["tsr"]);$_TSR.e();document.currentScript.remove()</script><script type="module" async="">import("/assets/index-De_GJWYX.js")</script><script src="https://cdn.gpteng.co/lovable.js" type="module"></script>
+<aside 
+	id="lovable-badge" 
+	role="complementary"
+	dir="ltr"
+	lang="en"
+	aria-label="Edit with Lovable">
+	<a 
+		id="lovable-badge-cta" 
+		target="_blank" 
+		href="https://lovable.dev/projects/3ad22999-3e01-4088-9ae8-b548569548b2?utm_source=lovable-badge"
+		rel="noopener nofollow"
+		aria-label="Edit with Lovable">
+		<span id="lovable-badge-text">Edit with</span>
+		<svg xmlns="http://www.w3.org/2000/svg" width="52" height="16" fill="none" viewBox="0 0 52 16">
+  <path fill="#FCFBF8" fill-rule="evenodd" d="M20.318 5.25c.643 0 1.206.14 1.69.418a2.81 2.81 0 0 1 1.118 1.191c.266.513.4 1.115.4 1.807s-.134 1.296-.4 1.812a2.81 2.81 0 0 1-1.118 1.193c-.484.278-1.047.418-1.69.418s-1.208-.14-1.695-.418a2.85 2.85 0 0 1-1.125-1.193c-.262-.516-.393-1.12-.393-1.812s.131-1.294.393-1.807a2.848 2.848 0 0 1 1.125-1.191c.487-.279 1.052-.418 1.695-.418Zm0 1.425c-.27 0-.504.076-.7.228-.193.147-.34.37-.443.67-.102.295-.153.66-.153 1.093 0 .435.05.801.153 1.1.102.3.25.524.443.676.196.147.43.22.7.22.27 0 .502-.073.694-.22.193-.152.341-.375.443-.67.103-.299.153-.667.153-1.106 0-.65-.112-1.145-.337-1.481a1.08 1.08 0 0 0-.953-.51ZM32.7 5.25c.61 0 1.127.1 1.549.3.422.197.74.48.953.849.217.368.325.809.325 1.32v2.704c0 .29.02.562.062.812.044.245.108.4.19.466V12h-1.935a5.895 5.895 0 0 1-.105-.684 7.745 7.745 0 0 1-.02-.228 2.293 2.293 0 0 1-.151.203c-.205.242-.47.437-.793.584-.32.143-.685.215-1.094.215-.406 0-.77-.08-1.094-.24a1.845 1.845 0 0 1-.756-.682 1.984 1.984 0 0 1-.27-1.045c0-.606.178-1.069.535-1.388.356-.324.87-.534 1.542-.633l1.125-.16c.225-.032.403-.074.534-.123a.622.622 0 0 0 .288-.196.549.549 0 0 0 .093-.327.65.65 0 0 0-.11-.367.702.702 0 0 0-.32-.27c-.14-.07-.31-.105-.51-.105-.32 0-.576.083-.768.251-.193.164-.298.39-.314.676h-1.923c.016-.434.147-.82.393-1.155.25-.34.596-.604 1.039-.792.442-.189.954-.283 1.535-.283Zm.99 3.498a.98.98 0 0 1-.215.14 2.49 2.49 0 0 1-.584.178l-.473.092c-.315.061-.553.156-.713.283-.155.127-.233.305-.233.534 0 .23.084.412.252.547.168.135.383.203.645.203s.494-.058.694-.173c.201-.118.355-.282.461-.49.11-.21.166-.448.166-.714v-.6Zm4.526-2.375c.065-.125.138-.243.221-.349.197-.25.437-.44.719-.571.282-.135.6-.203.952-.203.528 0 .988.138 1.377.412.389.275.688.67.896 1.186.21.512.314 1.12.314 1.824 0 .7-.107 1.309-.32 1.825-.213.512-.518.906-.915 1.18-.393.275-.854.412-1.383.412-.352 0-.667-.062-.946-.184a1.832 1.832 0 0 1-.7-.554 2.2 2.2 0 0 1-.234-.383V12h-1.843V3h1.862v3.373Zm1.284.296c-.274 0-.51.085-.707.253-.192.163-.338.397-.436.7a3.376 3.376 0 0 0-.148 1.05c0 .406.05.759.148 1.058.098.299.243.53.436.694.197.164.433.246.707.246.279 0 .512-.082.7-.246.193-.164.336-.395.43-.694.099-.3.148-.652.148-1.058 0-.405-.05-.757-.147-1.056-.095-.299-.238-.53-.43-.694a1.015 1.015 0 0 0-.7-.253Zm9.416-1.419c.602 0 1.136.131 1.604.393.466.262.829.643 1.086 1.143.263.5.394 1.097.394 1.794 0 .25-.002.449-.006.596H47.51c.018.288.071.538.164.75a1.3 1.3 0 0 0 .491.596c.214.13.465.196.757.196.319 0 .583-.082.792-.246.209-.167.34-.403.393-.706h1.862a2.48 2.48 0 0 1-.485 1.235 2.54 2.54 0 0 1-1.051.805c-.439.188-.949.283-1.53.283-.655 0-1.225-.125-1.708-.375a2.672 2.672 0 0 1-1.13-1.143c-.267-.508-.4-1.137-.4-1.887 0-.712.14-1.327.418-1.843a2.86 2.86 0 0 1 1.155-1.186c.491-.27 1.051-.405 1.678-.405Zm-.044 1.345c-.274 0-.516.068-.725.203a1.29 1.29 0 0 0-.479.59 2.045 2.045 0 0 0-.132.498h2.562a1.873 1.873 0 0 0-.138-.602 1.061 1.061 0 0 0-.418-.516 1.243 1.243 0 0 0-.67-.173Z" clip-rule="evenodd"/>
+  <path fill="#FCFBF8" d="m26.605 9.995 1.342-4.566h1.924L27.628 12h-2.07l-2.33-6.57h1.98l1.397 4.565Zm-13.013.143h2.256c1.632 0 1.421 1.837 1.418 1.861h-5.603V3h1.93v7.138Zm31.516 1.861h-1.862V3h1.862v8.999Z"/>
+  <path fill="url(#a)" fill-rule="evenodd" d="M2.7 3c1.492 0 2.7 1.192 2.7 2.663v1.012h.9c1.49 0 2.7 1.192 2.7 2.662S7.791 12 6.3 12H0V5.663C0 4.193 1.209 3 2.7 3Z" clip-rule="evenodd"/>
+  <defs>
+    <radialGradient id="a" cx="0" cy="0" r="1" gradientTransform="matrix(-1.54236 7.07838 -10.231 -2.15602 4.627 5.022)" gradientUnits="userSpaceOnUse">
+      <stop offset=".106" stop-color="#FE7B02"/>
+      <stop offset=".394" stop-color="#FE3F21"/>
+      <stop offset=".608" stop-color="#F858BC"/>
+      <stop offset=".929" stop-color="#575ECF"/>
+    </radialGradient>
+  </defs>
+</svg>
+
+
+	</a>
+	
+	<span id="lovable-badge-divider" aria-hidden="true"></span>
+	
+	<button 
+		id="lovable-badge-close"
+		aria-label="Dismiss"
+		title="Dismiss"
+		type="button">
+		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16" aria-hidden="true">
+			<path d="M10.646 4.646a.5.5 0 1 1 .707.708L8.707 8l2.646 2.646a.5.5 0 1 1-.707.707L8 8.707l-2.646 2.646a.5.5 0 1 1-.708-.707L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708L8 7.293l2.646-2.647Z"/>
+		</svg>
+	</button>
+</aside>
+<script>
+	// Don't show the lovable-badge if the page is in an iframe or if it's being rendered by puppeteer (screenshot service)
+	if (window.self !== window.top || navigator.userAgent.includes('puppeteer')) {
+		// the page is in an iframe
+		var badge = document.getElementById('lovable-badge');
+		if (badge) {
+			badge.style.display = 'none';
+		}
+	}
+
+	// Add click event listener to close button with animation
+	var closeButton = document.getElementById('lovable-badge-close');
+	if (closeButton) {
+		closeButton.addEventListener('click', function(event) {
+			event.preventDefault();
+			event.stopPropagation();
+			var badge = document.getElementById('lovable-badge');
+			if (badge) {
+				badge.classList.add('closing');
+				setTimeout(function() {
+					if (badge) {
+						badge.style.display = 'none';
+					}
+				}, 240);
+			}
+		});
+	}
+</script>
+</body></html>
